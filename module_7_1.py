@@ -1,4 +1,3 @@
 f = open('text.txt', 'r', encoding='utf-8')
-for s in f:
-    print(s.strip())
+print(f.read())
 f.close()
